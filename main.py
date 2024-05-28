@@ -12,7 +12,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 """Descripton"""
-# Projekt ma na celu najepszej klasyfikacji zadowolenia klientow lini lotniczych, database składa się z 20 kolumn,
+# Projekt ma na celu najepszej klasyfikacji zadowolenia klientow lini lotniczych, database składa się z 22 kolumn,
 # w którym są zaprezentowane czynniki które mają wpływ na zadowolenie pasażerów
 
 """ ---------------------------------------- DATA PREPARING ---------------------------------------- """
@@ -25,7 +25,7 @@ pd.set_option('display.max_colwidth', None)
 # Wczytywani pliku CSV
 file_directory = r"C:\Users\kamil\Desktop\Studia\Semestr VI\MachinLearning\Kamil-Jarzynski-164395\Airline_customer_satisfaction.csv"
 df = pd.read_csv(file_directory)
-
+print(df.info())
 """Dropping missing cols"""
 # Usuniecie wierszy które maja wybrakowane wartosci w kolumnie Arrival Delay in Minutes jest tak duzo przykladow
 # ze nie maja wpływu na końcowy wynik
