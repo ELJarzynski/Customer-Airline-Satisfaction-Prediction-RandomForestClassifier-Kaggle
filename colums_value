@@ -1,0 +1,131 @@
+satisfaction
+satisfied       71087
+dissatisfied    58793
+
+Customer Type
+Loyal Customer       106100
+disloyal Customer     23780
+
+Age od 15 do 80
+
+Type of Travel
+Business travel    89693
+Personal Travel    40187
+
+Class
+Business    62160
+Eco         58309
+Eco Plus     9411
+
+Flight Distance od 1 do 92
+
+Seat comfort
+3    29183
+2    28726
+4    28398
+1    20949
+5    17827
+0     4797
+
+Departure/Arrival time convenient
+4    29593
+5    26817
+3    23184
+2    22794
+1    20828
+0     6664
+
+Food and drink
+3    28150
+4    27216
+2    27146
+1    21076
+5    20347
+0     5945
+
+Gate location
+3    33546
+4    30088
+2    24518
+1    22565
+5    19161
+0        2
+
+Inflight wifi service
+4    31560
+5    28830
+3    27602
+2    27045
+1    14711
+0      132
+
+Inflight entertainment
+4    41879
+5    29831
+3    24200
+2    19183
+1    11809
+0     2978
+
+Online support
+4    41510
+5    35563
+3    21609
+2    17260
+1    13937
+0        1
+
+Ease of Online booking
+4    39920
+5    34137
+3    22418
+2    19951
+1    13436
+0       18
+
+On-board service
+4    40675
+5    31724
+3    27037
+2    17174
+1    13265
+0        5
+
+Leg room service
+4    39698
+5    34385
+3    22467
+2    21745
+1    11141
+0      444
+
+Baggage handling
+4    48240
+5    35748
+3    24485
+2    13432
+1     7975
+
+Checkin service
+4    36481
+3    35538
+5    27005
+2    15486
+1    15369
+0        1
+
+Cleanliness
+4    48795
+5    35916
+3    23984
+2    13412
+1     7768
+0        5
+
+Online boarding
+4    35181
+3    30780
+5    29973
+2    18573
+1    15359
+0       14
