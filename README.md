@@ -3,14 +3,15 @@ Projekt ma na celu najepszej klasyfikacji zadowolenia klientow lini lotniczych, 
 Używam zbioru danych z [Kaggle](https://www.kaggle.com/datasets/yakhyojon/customer-satisfaction-in-airline) 
 i będę to robił za pomocą biblioteki Scikit-learn do nauczenia maszynowego tego modelu
 # Wyniki poszczególnych modeli
-## Random Forest Classifier
-![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorForest.png)
 ## K Nearest Neighbors
 ![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorKNN.png)
 ## Logistic Regression
 ![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorLR.png)
 ## Decision Tree Classifier
 ![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorTree.png)
+## Random Forest Classifier
+![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorForest.png)
+
 # Jak widać najlepiej zpredyktował model Random Forest Classifier z wynikami 
 ### Accuracy 0.952
 ### Precision 0.969
