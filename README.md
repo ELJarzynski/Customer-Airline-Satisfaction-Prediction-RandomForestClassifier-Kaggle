@@ -1,4 +1,3 @@
-"""
 # Airline Customer Satisfaction Prediction Using Machine Learning
 
 This project aims to achieve high-quality classification of airline customer satisfaction. 
@@ -30,4 +29,3 @@ The Random Forest Classifier achieved the best results with:
 
 # Confusion Matrix
 ![Confusion Matrix](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/CMDRF.png)
-"""
