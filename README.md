@@ -1,20 +1,33 @@
-# Predykcja satysfakcji klientów lini lotniczych za pomcą uczenia maszynowego
-Projekt ma na celu najepszej klasyfikacji zadowolenia klientow lini lotniczych, database składa się z 22 kolumn, w którym są zaprezentowane czynniki które mają wpływ na zadowolenie pasażerów. 
-Używam zbioru danych z [Kaggle](https://www.kaggle.com/datasets/yakhyojon/customer-satisfaction-in-airline) 
-i będę to robił za pomocą biblioteki Scikit-learn do nauczenia maszynowego tego modelu
-# Wyniki poszczególnych modeli
-## K Nearest Neighbors
-![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorKNN.png)
-## Logistic Regression
-![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorLR.png)
-## Decision Tree Classifier
-![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorTree.png)
-## Random Forest Classifier
-![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorForest.png)
+"""
+# Airline Customer Satisfaction Prediction Using Machine Learning
 
-# Jak widać najlepiej zpredyktował model Random Forest Classifier z wynikami 
-### Accuracy 0.952
-### Precision 0.969
-### Recall 0.943
-# A tak się prezentuje macierz pomyłek
-![alt table](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/CMDRF.png)
+This project aims to achieve high-quality classification of airline customer satisfaction. 
+The dataset consists of 22 columns, which present factors that influence passenger satisfaction. 
+
+I am using the dataset from [Kaggle](https://www.kaggle.com/datasets/yakhyojon/customer-satisfaction-in-airline) 
+and will employ the Scikit-learn library to train the machine learning model.
+
+# Model Results
+
+## K Nearest Neighbors
+![K Nearest Neighbors Error](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorKNN.png)
+
+## Logistic Regression
+![Logistic Regression Error](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorLR.png)
+
+## Decision Tree Classifier
+![Decision Tree Classifier Error](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorTree.png)
+
+## Random Forest Classifier
+![Random Forest Classifier Error](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/errorForest.png)
+
+# Summary
+
+The Random Forest Classifier achieved the best results with:
+- **Accuracy:** 0.952
+- **Precision:** 0.969
+- **Recall:** 0.943
+
+# Confusion Matrix
+![Confusion Matrix](https://github.com/ELJarzynski/UM-Customer-Airline-Satisfaction-Prediction-RandomForestClassifier/blob/main/images/CMDRF.png)
+"""
